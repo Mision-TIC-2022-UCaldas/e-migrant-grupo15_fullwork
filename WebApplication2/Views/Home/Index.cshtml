@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<label class="form-label" for="peso">Peso</label>
+<input class="form-control" type="number" name="peso" id="peso">
+
+<label class="form-label" for="talla">Talla</label>
+<input class="form-control" type="number" name="talla" id="talla">
+<button class="boton btn btn-primary">Calcular</button>
+<p class="resultado">Indice de masa corporal: </p>
+
+
+<script>
+    const boton = document.querySelector('.boton')    const resultado = document.querySelector('.resultado')    boton.addEventListener('click', calcularIMC)    function calcularIMC() {        const peso = document.querySelector('#peso').value;        const talla = document.querySelector('#talla').value;        if (peso <= 0 || talla <= 0) {            alert('Ningun valor puede ser menor a 0');        } else {            let imc = talla / peso ** 2;            resultado.textContent = "EL IMC es: " + imc;        }    }
+
+</script>
