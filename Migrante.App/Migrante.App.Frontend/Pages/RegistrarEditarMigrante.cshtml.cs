@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Migrante.App.Persistencia;
+using Migrante.App.Dominio;
 
 namespace Migrante.App.Frontend.Pages
 {
@@ -15,9 +17,9 @@ namespace Migrante.App.Frontend.Pages
 
         public PersonaMigrante migrante{get;set;}
         
-        public void OnGet(int? idPersonaMigrante)
-        {
-            if(idPersonaMigrante)
+        public void OnGet()//int? idPersonaMigrante)
+        {/*
+            if(idPersonaMigrante.HasValue)
             {
                 migrante = _repoMigrante.GetPersonaMigrante(idPersonaMigrante.Value);
 
@@ -35,9 +37,9 @@ namespace Migrante.App.Frontend.Pages
             {
                 return Page();
             }
-            
+           */ 
         }
-
+        /*
         public IActionResult OnPost()
         {
             if(!ModelState.IsValid)
@@ -52,6 +54,6 @@ namespace Migrante.App.Frontend.Pages
                 }
                 return 0;
             }
-        }
+        }*/
     }
 }

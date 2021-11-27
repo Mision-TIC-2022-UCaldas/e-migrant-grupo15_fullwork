@@ -1,0 +1,5 @@
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\netstandard2.1\Migrante.App.Dominio.csproj.AssemblyReference.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\netstandard2.1\Migrante.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\netstandard2.1\Migrante.App.Dominio.AssemblyInfoInputs.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\netstandard2.1\Migrante.App.Dominio.AssemblyInfo.cs
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\netstandard2.1\Migrante.App.Dominio.csproj.CoreCompileInputs.cache
