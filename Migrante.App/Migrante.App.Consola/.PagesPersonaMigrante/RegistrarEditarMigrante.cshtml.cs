@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Migrante.App.Frontend.Pages
 {
-    public class RegistrarMigranteModel : PageModel
+    public class RegistrarEditarMigranteModel : PageModel
     {
         public void OnGet()
         {

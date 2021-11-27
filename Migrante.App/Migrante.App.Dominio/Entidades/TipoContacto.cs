@@ -7,4 +7,5 @@ namespace Migrante.App.Dominio
         Amigo,
         Colega
     }
+}
     

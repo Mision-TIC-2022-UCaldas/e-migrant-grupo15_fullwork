@@ -15,4 +15,3 @@ C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Persistencia\ob
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Persistencia\obj\Debug\net5.0\ref\Migrante.App.Persistencia.dll
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Persistencia\obj\Debug\net5.0\Migrante.App.Persistencia.pdb
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Persistencia\obj\Debug\net5.0\Migrante.App.Persistencia.genruntimeconfig.cache
-C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Persistencia\obj\Debug\net5.0\Migrante.App.Persistencia.csproj.CopyComplete

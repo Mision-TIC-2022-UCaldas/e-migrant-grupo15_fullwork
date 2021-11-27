@@ -72,3 +72,4 @@ C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Frontend\obj\De
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Frontend\obj\Debug\net5.0\Migrante.App.Frontend.genruntimeconfig.cache
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Frontend\bin\Debug\net5.0\Humanizer.dll
 C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Frontend\obj\Debug\net5.0\Razor\Pages\PersonaMigrante\RegistrarMigrante.cshtml.g.cs
