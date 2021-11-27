@@ -13,7 +13,7 @@ namespace Migrante.App.Dominio
 
         TarjetaIdentidad,
         
-        CCExtranjera,
+        DocumentoExtrajero,
 
         Pasaporte
     }
