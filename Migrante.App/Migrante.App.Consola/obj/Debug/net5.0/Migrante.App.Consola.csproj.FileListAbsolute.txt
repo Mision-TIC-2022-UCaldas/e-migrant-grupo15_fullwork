@@ -1,0 +1,16 @@
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.exe
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.deps.json
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.runtimeconfig.json
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.runtimeconfig.dev.json
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\ref\Migrante.App.Consola.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\bin\Debug\net5.0\Migrante.App.Consola.pdb
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.csproj.AssemblyReference.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.AssemblyInfoInputs.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.AssemblyInfo.cs
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.csproj.CoreCompileInputs.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\ref\Migrante.App.Consola.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.pdb
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Consola\obj\Debug\net5.0\Migrante.App.Consola.genruntimeconfig.cache
