@@ -3,11 +3,11 @@ namespace Migrante.App.Dominio
 {
     public enum EstadoSolicitud
     {
-        En espera,
+        En_espera,
         Autorizado,
         Activo,
-        Rechazado Por Migrante,
+        Rechazado_Por_Migrante,
         Cancelado,
-        Negado Por Entidad
+        Negado_Por_Entidad
     }
 }

@@ -10,10 +10,10 @@ namespace Migrante.App.Dominio
         Salud,
         Alimentacion,
         Empleo,
-        Alojamiento temporal,
-        Alojamiento permanente,
+        Alojamiento_temporal,
+        Alojamiento_permanente,
         Educacion,
-        Ayuda Legal,
+        Ayuda_Legal,
 
     }
 
