@@ -17,8 +17,8 @@ namespace Migrante.App.Frontend.Pages
 
         public PersonaMigrante migrante{get;set;}
         
-        public void OnGet()//int? idPersonaMigrante)
-        {/*
+        public IActionResult OnGet(int? idPersonaMigrante)
+        {
             if(idPersonaMigrante.HasValue)
             {
                 migrante = _repoMigrante.GetPersonaMigrante(idPersonaMigrante.Value);
@@ -31,15 +31,14 @@ namespace Migrante.App.Frontend.Pages
 
             if(migrante == null)
             {
-                return 0;
+                return RedirectToPage("/Index");
             }
             else
             {
                 return Page();
             }
-           */ 
+           
         }
-        /*
         public IActionResult OnPost()
         {
             if(!ModelState.IsValid)
@@ -52,8 +51,8 @@ namespace Migrante.App.Frontend.Pages
                 }else{
                      _repoMigrante.AddMigrante(migrante);
                 }
-                return 0;
+                return RedirectToPage("/Index");
             }
-        }*/
+        }
     }
 }
