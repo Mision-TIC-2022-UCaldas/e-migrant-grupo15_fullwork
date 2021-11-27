@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Migrante.App.Dominio;
 
-namespace Migrente.App.Persistencia
+namespace Migrante.App.Persistencia
 {
     public class AppContext : DbContext
     {

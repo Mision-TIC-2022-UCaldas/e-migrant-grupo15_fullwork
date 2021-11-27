@@ -1,4 +1,5 @@
 ﻿using System;
+using Migrante.App.Dominio;
 
 namespace Migrante.App.Consola
 {
