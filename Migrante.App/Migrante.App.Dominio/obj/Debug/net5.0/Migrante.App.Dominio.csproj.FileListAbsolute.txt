@@ -1,0 +1,12 @@
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.csproj.AssemblyReference.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.AssemblyInfoInputs.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.AssemblyInfo.cs
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\bin\Debug\net5.0\Migrante.App.Dominio.deps.json
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\bin\Debug\net5.0\Migrante.App.Dominio.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\bin\Debug\net5.0\ref\Migrante.App.Dominio.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\bin\Debug\net5.0\Migrante.App.Dominio.pdb
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\ref\Migrante.App.Dominio.dll
+C:\Hackaton\e-migrant-grupo15_fullwork\Migrante.App\Migrante.App.Dominio\obj\Debug\net5.0\Migrante.App.Dominio.pdb
