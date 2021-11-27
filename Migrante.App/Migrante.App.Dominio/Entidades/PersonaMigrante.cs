@@ -27,7 +27,7 @@ namespace Migrante.App.Dominio
 
         [Required]
         [MaxLength(50)]
-        public string país {get;set;}
+        public string pais {get;set;}
 
         [Required]
         public DateTime fechaNacimiento {get;set;}
@@ -40,7 +40,7 @@ namespace Migrante.App.Dominio
         [MaxLength(100)]
         public string direccion {get;set;}
 
-        public string Ciudad {get;set;}
+        public string ciudad {get;set;}
         
         public SituacionLaboral situacionLaboral {get;set;}
     }
