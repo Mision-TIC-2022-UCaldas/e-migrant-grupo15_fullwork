@@ -9,11 +9,11 @@ namespace Migrante.App.Dominio
     {
         CC,
 
-        RegistroCivil,
+        Registro Civil,
 
-        TarjetaIdentidad,
+        Tarjeta Identidad,
         
-        CCExtranjera,
+        Documento Extrajero,
 
         Pasaporte
     }
