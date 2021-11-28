@@ -15,6 +15,8 @@ namespace Migrante.App.Persistencia
         void DeletePersonaMigrante(int idMigrante);
         //GetPersonaMigrante
         PersonaMigrante GetPersonaMigrante(int idMigrante);
+
+        PersonaMigrante GetPersonaMigrante_docu(string DocuPersonaMigrante);
         
     }
 }
