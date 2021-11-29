@@ -10,7 +10,5 @@ namespace Migrante.App.Dominio
         Cerrado,
         Activo_con_Cupo,
         Activo_sin_Cupo,
-    }
-
-    
+    } 
 }
