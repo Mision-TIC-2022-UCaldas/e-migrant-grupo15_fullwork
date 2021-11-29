@@ -1,0 +1,36 @@
+﻿@page
+@model Migrante.App.Frontend.Pages.Entidades.RegistrarEntidadModel
+@{
+}
+
+<H1>Formulario para Registrar Nuevas entidades</H1>
+<form method="POST">
+    Razon Social: <input type="text" name="razonSocial"></input><br>
+    Nit: <input type="text" name="nit"></input><br>
+    Dirección: <input type="text" name="direccion"></input><br>
+    Ciudad: <input type="text" name="ciudad"></input><br>
+    Teléfono: <input type="text" name="telefono"></input><br>
+
+
+
+    Sector: <select name="sector">
+        <option value="0">Publico</option>
+        <option value="1">Prinvado </option>
+        <option value="2">Sin Animo de Lucro</option>
+        <option value="3">No Gubernamental</option>
+        <option value="4">Otros</option>
+    </select>
+
+    Sector: <select name="TipoServicio">
+        <option value="0">Alimentacion</option>
+        <option value="1">Empleo</option>
+        <option value="2">Alojamiento temporal</option>
+        <option value="3">Alojamiento permanente</option>
+        <option value="4">Educación</option>
+        <option value="5">Atyda Legal</option>
+    </select>
+
+    <input type="SUBMIT"></input>
+
+</form>
+
