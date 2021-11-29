@@ -4,18 +4,16 @@
     ViewData["Title"] = "Listas";
 }
 
-<h1>consulta</h1>
-
-Documento solicitado: @Model.docu
-
-<br>
-
 @{
+    Console.WriteLine("Dentro de la pagina");
+
+    
  if(@Model.personaMigrante.id == null){
      Response.Redirect("../Error");
  }
 }
 
+<h1>Consulta</h1>
 
 Nombre: @Model.personaMigrante.nombre
 <br>    
@@ -46,8 +44,3 @@ Situacion Laboral: @Model.personaMigrante.situacionLaboral
     <input type="hidden" name="IdMigrante" value=@Model.personaMigrante.id>
     <button type="submit">Editar</button>
 </form>
-
-<!--
-    Model.personaMigrante.nombre
--->
-

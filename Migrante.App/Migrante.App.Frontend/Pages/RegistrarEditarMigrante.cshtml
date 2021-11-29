@@ -4,23 +4,24 @@
 }
 
 <h1>Registro de persona migrante</h1>
-<div class="container w-50">
-    <form method="post">
+<form class="row g-3 needs-validation" method="post" novalidate>
+    <div class="col-md-6">
         <input type="hidden" asp-for="migrante.id">
         <div class="form-group">
             <label asp-for="migrante.nombre" class="form-label">Nombres</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.nombre" placeholder="Ingrese su nombre">
+            <input type="text" class="form-control" asp-for="migrante.nombre" placeholder="Ingrese su nombre">
         </div>
-
+    </div>
+    <div class="col-md-6">
         <div class="form-group">
             <label asp-for="migrante.apellidos" class="form-label">Apellidos</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.apellidos"
-                placeholder="Ingrese sus apellidos">
+            <input type="text" class="form-control" asp-for="migrante.apellidos" placeholder="Ingrese sus apellidos">
         </div>
-
+    </div>
+    <div class="col-md-6">
         <div class="form-group">
-            <label asp-for="migrante.tipoIdentificacion" class="form-label">Tipo de documento de identificación</label>
-            <select class="form-select w-25" asp-for="migrante.tipoIdentificacion">
+            <label asp-for="migrante.tipoIdentificacion" class="form-label">Tipo de documento de identificación</label><br>
+            <select class="form-select" style="width:500px" asp-for="migrante.tipoIdentificacion">
                 <option selected disabled>Tipo de documento</option>
                 <option value="CC">Cedula Ciudadania</option>
                 <option value="RegistroCivil">Registro Civil</option>
@@ -29,46 +30,53 @@
                 <option value="Pasaporte">Pasaporte</option>
             </select>
         </div>
+    </div>
+    <div class="col-md-6">
         <div class="form-group">
             <label asp-for="migrante.numeroDocumento " class="form-label">Número de documento</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.numeroDocumento "
-                placeholder="Numero de documento">
+            <input type="text" class="form-control" asp-for="migrante.numeroDocumento" placeholder="Numero de documento">
         </div>
+    </div>
+    <div class="col-md-6">
         <div class="form-group">
             <label asp-for="migrante.pais" class="form-label">País de Origen</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.pais" placeholder="Ingrese su pais origen">
+            <input type="text" class="form-control" asp-for="migrante.pais" placeholder="Ingrese su pais origen">
         </div>
-
+    </div>
+    <div class="col-md-6">
         <div class="form-group">
-            <label asp-for="migrante.numeroDocumento" class="form-label">Fecha de Nacimiento</label>
-            <input type="date" class="form-control w-50" asp-for="migrante.fechaNacimiento"
-                placeholder="Fecha de nacimiento">
+            <label asp-for="migrante.fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+            <input type="datetime-local" class="form-control" asp-for="migrante.fechaNacimiento" placeholder="Fecha de nacimiento">
         </div>
-
+    </div>
+    <div class="col-md-3">
         <div class="form-group">
             <label asp-for="migrante.direccionElectronica " class="form-label">Dirrección Electrónica</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.direccionElectronica " placeholder="email">
+            <input type="text" class="form-control" asp-for="migrante.direccionElectronica " placeholder="email">
         </div>
-
+    </div>
+    <div class="col-md-3">
         <div class="form-group">
             <label asp-for="migrante.telefono" class="form-label">Numero de teléfono</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.telefono"
-                placeholder="Ingrese su numero de teléfono">
+            <input type="text" class="form-control" asp-for="migrante.telefono" placeholder="Ingrese su numero de teléfono">
         </div>
-
+    </div>
+    <div class="col-md-3">
         <div class="form-group">
             <label asp-for="migrante.direccion" class="form-label">Dirrección</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.direccion" placeholder="Dirección">
+            <input type="text" class="form-control" asp-for="migrante.direccion" placeholder="Dirección">
         </div>
-
+    </div>
+    <div class="col-md-3">
         <div class="form-group">
             <label asp-for="migrante.ciudad" class="form-label">Ciudad</label>
-            <input type="text" class="form-control w-50" asp-for="migrante.ciudad" placeholder="Ciudad">
+            <input type="text" class="form-control" asp-for="migrante.ciudad" placeholder="Ciudad">
         </div>
-
+    </div>
+    <div class="col-md-12">
         <div class="form-group">
-            <label for="pais" class="form-label">Situación Laboral</label>
-            <select class="form-select w-25" id="pais">
+            <label asp-for="migrante.situacionLaboral" class="form-label">Situación Laboral</label><br>
+            <select class="form-select" style="width:500px" asp-for="migrante.situacionLaboral" id="situacionLaboral">
                 <option selected disabled>Situación</option>
                 <option value="Empleado">Empleado</option>
                 <option value="Desempleado">Desempleado</option>
@@ -78,10 +86,10 @@
                 <option value="Pensionado">Otro</option>
             </select>
         </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Guardar</button>
-            <button type="submit" class="btn btn-danger mb-5" asp-page="/Index">Cancelar</button>
+        <div class="col-md-6">
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <button type="submit" class="btn btn-danger" asp-page="/Index">Cancelar</button>
+            </div>
         </div>
-
-    </form>
-</div>
+</form>
