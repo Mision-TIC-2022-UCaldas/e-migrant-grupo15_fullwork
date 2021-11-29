@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+
+namespace Migrante.App.Dominio
+{
+    //Enumera los posibles documentos de identificación
+    public enum EstadoServicio
+    {
+        Cerrado,
+        Activo_con_Cupo,
+        Activo_sin_Cupo,
+    }
+
+    
+}

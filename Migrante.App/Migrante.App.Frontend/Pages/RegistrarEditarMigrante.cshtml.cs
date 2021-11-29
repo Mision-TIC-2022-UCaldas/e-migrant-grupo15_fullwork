@@ -48,10 +48,11 @@ namespace Migrante.App.Frontend.Pages
                 if(migrante.id>0)
                 {
                     migrante = _repoMigrante.UpdatePersonaMigrante(migrante);
+                    
                 }else{
                      _repoMigrante.AddMigrante(migrante);
                 }
-                return RedirectToPage("/Index");
+                return RedirectToPage("Exitoso");
             }
         }
     }
