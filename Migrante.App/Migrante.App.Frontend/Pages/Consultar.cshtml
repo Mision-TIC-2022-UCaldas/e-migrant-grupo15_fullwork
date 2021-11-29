@@ -11,10 +11,41 @@ Documento solicitado: @Model.docu
 <br>
 
 @{
-    Console.WriteLine("Dentro de la pagina");
-    
-    
+ if(@Model.personaMigrante.id == null){
+     Response.Redirect("../Error");
+ }
 }
+
+
+Nombre: @Model.personaMigrante.nombre
+<br>    
+Apellidos:  @Model.personaMigrante.apellidos
+<br>
+Numero DOcumento: @Model.personaMigrante.numeroDocumento
+<br>
+Tipo de Identificación: @Model.personaMigrante.tipoIdentificacion
+<br>
+Numero de documento: @Model.personaMigrante.numeroDocumento
+<br>
+Pais de origen: @Model.personaMigrante.pais
+<br>
+Fecha de nacimiento @Model.personaMigrante.fechaNacimiento
+<br>
+Correo electronico @Model.personaMigrante.direccionElectronica
+<br>
+Telefonos: @Model.personaMigrante.telefono
+<br>
+Direccion: @Model.personaMigrante.direccion
+<br>
+Ciudad: @Model.personaMigrante.ciudad
+<br>
+Situacion Laboral: @Model.personaMigrante.situacionLaboral
+<br>
+
+<form action="RegistrarEditarMigrante" method="GET">
+    <input type="hidden" name="IdMigrante" value=@Model.personaMigrante.id>
+    <button type="submit">Editar</button>
+</form>
 
 <!--
     Model.personaMigrante.nombre
