@@ -62,6 +62,13 @@ namespace Migrante.App.Persistencia
             return PersonaMigranteEncontrado;
         }
 
+        PersonaMigrante IRepositorioMigrante.GetPersonaMigrante_docu(string DocuPersonaMigrante)
+        {
+
+            var PersonaMigranteEncontrado= _appContext.Migrantes.FirstOrDefault(p => p.numeroDocumento == DocuPersonaMigrante);
+            return PersonaMigranteEncontrado;
+        }
+
         IEnumerable<PersonaMigrante> IRepositorioMigrante.GetAllMigrantes()
         {
             return _appContext.Migrantes;
